@@ -1,48 +1,69 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>CINEMA</title>
-        <meta charset="utf-8">
-        <body>
-            <h1 align="center">CINEMINHA</h1>
-        <hr>
-        </body>
-        <a href="https://www.youtube.com/watch?v=JeGdtrLQoiY"><img src="birdbox.jpg" title="Bird Box" alt="birdbox_image" width="300" hspace="100" vspace="100" border="4"></a>
-        <a href="https://www.youtube.com/watch?v=WvFHERDoBVg"><img src="donzela.jpg" title="Donzela" alt="donzela_image" width="300" hspace="100" vspace="100" border="4"></a>
-        <a href="https://www.youtube.com/watch?v=rcV1I-397Wg"><img src="EmolaHolmes.jpg" title="Emola Holmes" alt="emola_image" width="300" hspace="100" vspace="100" border="4"></a>
-        <hr>
-        <h2>Shoppings Disponíveis</h2>
-        <ul>
-            <li>Palladium</li>
-            <li>Miller</li>
-            <li>Ventura</li>
-        </ul>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEMA</title>
+    <link rel="stylesheet" href="style.css"> <!-- Vincula o arquivo CSS externo -->
+</head>
+<body>
+    <header>
+        <h1>CINEMINHA</h1>
+    </header>
+    <main>
+        <section class="container">
+            <a href="https://www.youtube.com/watch?v=JeGdtrLQoiY">
+                <img src="birdbox.jpg" title="Bird Box" alt="Imagem do filme Bird Box">
+            </a>
+            <a href="https://www.youtube.com/watch?v=WvFHERDoBVg">
+                <img src="donzela.jpg" title="Donzela" alt="Imagem do filme Donzela">
+            </a>
+            <a href="https://www.youtube.com/watch?v=rcV1I-397Wg">
+                <img src="EmolaHolmes.jpg" title="Emola Holmes" alt="Imagem do filme Emola Holmes">
+            </a>
+        </section>
+        
+        <section class="shoppings">
+            <h2>Shoppings Disponíveis</h2>
+            <ul>
+                <li>Palladium</li>
+                <li>Miller</li>
+                <li>Ventura</li>
+            </ul>
+        </section>
 
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Nome do filme:</th>
-                    <th>Data de Lançamento:</th>
-                    <th>Gênero:</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Bird Box</td>
-                    <td>14 de dezembro de 2018</td>
-                    <td>Terror/Ficção científica</td>
-                </tr>
-                <tr>
-                    <td>Donzela</td>
-                    <td>8 de março de 2024</td>
-                    <td>Ação/Aventura</td>
-                </tr>
-                <tr>
-                    <td>Emola Holmes</td>
-                    <td>23 de setembro de 2020</td>
-                    <td>Mistério/Aventura</td>
-                </tr>
-            </tbody>
-        </table>
-    </head>
+        <section class="movies">
+            <h2>Filmes em Cartaz</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome do filme</th>
+                        <th>Data de Lançamento</th>
+                        <th>Gênero</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bird Box</td>
+                        <td>14 de dezembro de 2018</td>
+                        <td>Terror/Ficção científica</td>
+                    </tr>
+                    <tr>
+                        <td>Donzela</td>
+                        <td>8 de março de 2024</td>
+                        <td>Ação/Aventura</td>
+                    </tr>
+                    <tr>
+                        <td>Emola Holmes</td>
+                        <td>23 de setembro de 2020</td>
+                        <td>Mistério/Aventura</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 CINEMINHA. Todos os direitos reservados.</p>
+    </footer>
+</body>
 </html>

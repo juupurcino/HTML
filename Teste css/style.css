@@ -1,0 +1,20 @@
+/* Estilo para a div com a classe "container" */
+.container {
+    display: flex;
+    justify-content: space-around; /* Espaço entre as divs */
+    flex-wrap: wrap; /* Permite que as divs se movam para a linha seguinte */
+    padding: 20px;
+}
+
+/* Estilo para a div com a classe "caixa" */
+.caixa {
+    width: 300px;
+    height: 200px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    line-height: 200px; /* Alinha verticalmente o texto */
+    border-radius: 15px; /* Bordas arredondadas */
+    margin: 10px; /* Margem ao redor das caixas */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Sombra ao redor da caixa */
+}

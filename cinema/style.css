@@ -1,0 +1,121 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo para o título principal */
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Estilo para as seções */
+section {
+    margin-bottom: 40px;
+}
+
+/* Estilo para o contêiner das imagens */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espaço entre as imagens */
+}
+
+/* Estilo para as imagens dentro do contêiner */
+.container img {
+    width: 300px;
+    height: auto;
+    border: 4px solid #ddd; /* Borda ao redor das imagens */
+    border-radius: 10px; /* Bordas arredondadas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
+}
+
+.container img:hover {
+    transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra ao redor da imagem */
+}
+
+/* Estilo para o título secundário */
+h2 {
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a lista de shoppings */
+ul {
+    list-style-type: none; /* Remove marcadores */
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estilo para a tabela */
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse; /* Remove o espaço entre as bordas das células */
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ao redor da tabela */
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd; /* Borda da tabela */
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff;
+    color: #666;
+}
+
+tfoot {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0,1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
