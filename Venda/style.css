@@ -1,0 +1,111 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #06484d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo para o título principal */
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Estilo para os detalhes e sumários */
+details {
+    margin-bottom: 20px;
+}
+
+summary {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #eee;
+    font-weight: bold;
+}
+
+summary:hover {
+    background-color: #ddd;
+}
+
+/* Estilo para o título secundário */
+h2 {
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a descrição dos produtos */
+p {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+/* Estilo para os iframes */
+iframe {
+    border: none;
+    margin-bottom: 10px;
+}
+
+/* Estilo para o formulário de informações do cliente */
+details label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+details input[type="text"],
+details input[type="tel"],
+details input[type="date"] {
+    display: block;
+    width: calc(100% - 22px); /* Ajusta o tamanho para considerar o padding e a borda */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+/* Remove o padding e a borda padrão dos elementos do form */
+input[type="text"],
+input[type="tel"],
+input[type="date"] {
+    box-sizing: border-box;
+}
+
+/* Estilo para o botão de envio */
+input[type="submit"] {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno (padding) */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para pointer ao passar o mouse */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Transições suaves para a cor de fundo e transformação */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Cor de fundo verde mais escuro ao passar o mouse */
+}
+
+input[type="submit"]:active {
+    transform: scale(0.98); /* Reduz um pouco o botão quando clicado */
+}
