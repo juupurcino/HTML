@@ -1,0 +1,74 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header {
+    background-color: #523a08;
+    color: #fff;
+    background: radial-gradient(#694b0a, #583a05);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 1%;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    font-size: xx-large;
+    font-weight: 700;
+
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: end;
+}
+
+input[type='text']{
+    padding: 2%;
+    margin: 4%;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type='submit']{
+    padding: 2%;
+    margin: 4%;
+    background-color: #176091;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+h1 {
+    padding: 1.5%;
+    font-weight: 400;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+
+.container img {
+    width: 300px;
+    height: auto;
+    margin: 1%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
+}
+
+.container img:hover {
+    transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra ao redor da imagem */
+}
+
+body {
+    margin: 0px;
+}
+
