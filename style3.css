@@ -1,70 +1,93 @@
+*{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Define o estilo para o elemento header */
 header {
-    background-color: cornflowerblue;
-    color: black;
-    padding: 40px;
-    text-align: center;
+    background-color: cornflowerblue; /* Define a cor de fundo como azul-clarinho */
+    color: black; /* Define a cor do texto como preto */
+    padding: 40px; /* Define o preenchimento interno como 40 pixels */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin: 0.5%; /* Define a margem externa como 0.5% */
 }
 
+/* Define o estilo para o elemento article */
 article {
-    background-color: bisque;
-    color: black;
-    padding: 40px;
-    text-align: center;
-    width: 700px;
-    height: 600px;
-    border-radius: 5px;
+    background-color: bisque; /* Define a cor de fundo como cor bisque (bege claro) */
+    color: black; /* Define a cor do texto como preto */
+    padding: 2%; /* Define o preenchimento interno como 2% do elemento pai */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    width: 70%; /* Define a largura como 70% do elemento pai */
+    height: 600px; /* Define a altura como 600 pixels */
+    border-radius: 5px; /* Define o raio da borda como 5 pixels para bordas arredondadas */
+    margin: 0.5%; /* Define a margem externa como 0.5% */
 }
 
+/* Define o estilo para o elemento footer */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 0,1px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background-color: #333; /* Define a cor de fundo como cinza escuro (quase preto) */
+    color: #fff; /* Define a cor do texto como branco */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 1px; /* Define o preenchimento interno como 1 pixel */
+    margin-top: 0.5%; /* Define a margem superior como 0.5% */
 }
 
+/* Define o estilo para o elemento nav */
 nav {
-    background-color: aqua;
-    border-radius: 5px;
+    background-color: aqua; /* Define a cor de fundo como azul claro (aqua) */
+    text-align: center;
+    border-radius: 5px; /* Define o raio da borda como 5 pixels para bordas arredondadas */
 }
 
-section{
-    margin: 1%;
-    /* padding: 12%; */
-    background-color: blue;
-    border-radius: 5px;
-    height: 10%;
-    width: 50%;
-
+/* Define o estilo para o elemento section */
+section {
+    margin: 1%; /* Define a margem externa como 1% */
+    /* padding: 12%; */ /* Comentado: Definiria o preenchimento interno como 12% do elemento pai */
+    background-color: blue; /* Define a cor de fundo como azul */
+    border-radius: 5px; /* Define o raio da borda como 5 pixels para bordas arredondadas */
+    height: 30%; /* Define a altura como 30% do elemento pai */
+    text-align: center;
 }
 
-main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+/* Define o estilo para o elemento main */
+main {
+    display: flex; /* Define o layout do main como flexível */
+    flex-direction: row; /* Alinha os itens na horizontal (linha) */
+    justify-content: space-between; /* Distribui os itens horizontalmente com espaço entre eles */
 }
 
-aside{
-    background-color: brown;
-    margin-left: 10px;
-    
+/* Define o estilo para o elemento aside */
+aside {
+    background-color: brown; /* Define a cor de fundo como marrom */
+    width: 30%; /* Define a largura como 30% do elemento pai */
+    margin: 0.5%; /* Define a margem externa como 0.5% */
+    padding: 1%; /* Define o preenchimento interno como 1% do elemento pai */
+    display: flex; /* Define o layout do aside como flexível */
+    flex-direction: column; /* Alinha os itens verticalmente (coluna) */
+    align-items: center; /* Alinha os itens horizontalmente ao centro */
+    border-radius: 1%; /* Define o raio da borda como 1% para bordas arredondadas */
 }
 
-article, aside {
-    margin-top: 10px;
-    width: 50%;
-
-}
-
-
+/* Define o estilo para o elemento body */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    margin: 0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a família de fontes */
+    color: #333; /* Define a cor do texto como cinza escuro */
+    background-color: #f4f4f4; /* Define a cor de fundo como cinza muito claro */
+}
+
+/* Define o estilo para os elementos figure e details */
+figure, details {
+    background-color: purple; /* Define a cor de fundo como roxo */
+    width: 90%; /* Define a largura como 90% do elemento pai */
+    height: 45%; /* Define a altura como 45% do elemento pai */
+    margin: 1%; /* Define a margem externa como 1% */
+    border-radius: 1%; /* Define o raio da borda como 1% para bordas arredondadas */
+    padding: 5%; /* Define o preenchimento interno como 5% do elemento pai */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
     
 }
+
